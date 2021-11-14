@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Miguel Marques</title>
+</head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="bg-transparent">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center">
+            <div class="hidden sm:block sm:ml-6">
+              <div class="flex space-x-4">
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                <a href="#about" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400">01.</span>
+                  About
+                </a>
+                <a href="#experience" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400">02.</span>
+                  Experience
+                </a>
+                <a href="#work" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400">03.</span>
+                  Work
+                </a>
+                <a href="#contact" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400">04.</span>
+                  Contact
+                </a>
+              </div>
+            </div>
+            <div class="block sm:hidden">
+              <a href="#" class="px-3 py-2 rounded-md text-sm font-bold">
+                Home
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="lg:relative">
+      <section class="container mx-auto max-w-7xl w-4/5 pt-8 pb-10 lg:py-24 lg:text-left">
+        <div class="px-4 sm:px-8 xl:pr-16">
+          <p class="text-green-400 py-4">Hi, my name is</p>
+          <h1 class="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl lg:text-5xl">
+            <span class="block py-2">Miguel Marques.</span>
+            <span class="block color-secondary py-2">I help companies build great digital products.</span>
+          </h1>
+          <p class="py-4 text-sm text-gray-400 sm:text-xl md:mt-2 md:max-w-3xl">
+            I'm a Software Engineer and Tech Recruiter based in Lisbon, Portugal 🇵🇹. I'm passionate about building products that solve real problems.
+          </p>
+          <div class="py-4">
+            <a target="_blank" class="pr-4 hover:text-white" href="mailto:miguelcdpmarques@gmail.com">
+              <i class="fas fa-envelope fa-lg"></i>
+            </a>
+            <a target="_blank" class="pr-4 hover:text-white" href="https://www.linkedin.com/in/miguelcdpmarques/">
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a target="_blank" class="pr-4 hover:text-white" href="https://github.com/miguelcdpmarques">
+              <i class="fab fa-github fa-lg"></i>
+            </a>
+            <a target="_blank" class="pr-4 hover:text-white" href="https://stackoverflow.com/users/9230980/miguel-marques">
+              <i class="fab fa-stack-overflow fa-lg"></i>
+            </a>
+          </div>
+          <div class="mt-6 sm:flex lg:justify-start">
+            <div class="rounded-md shadow">
+              <a href="mailto:miguelcdpmarques@gmail.com" class="w-full flex items-center justify-center px-4 py-2 border border-green-400 text-green-400 font-medium rounded-md text-white bg-transparent hover:bg-gray-800 md:py-3 md:text-lg md:px-6">
+                Contact Me
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mx-auto max-w-7xl w-4/5 lg:py-10 lg:text-left">
+        <div id="about" class="px-4 sm:px-8 xl:pr-16">
+          <h2 class="heading text-xl color-secondary">
+            <span class="text-green-400">01.</span>
+            About Me
+          </h2>
+          <div class="max-w-7xl py-8 sm:py-12">
+            <div class="relative">
+              <div class="grid grid-cols-1 md:grid-cols-3">
+                <div class="col-span-1 md:col-span-2">
+                  <p class="text-lg font-medium pb-4">Hello 👋🏻 My name is Miguel. I enjoy hiring engineers and building digital products.</p>
+                  <p class="text-lg font-medium pb-4">I founded <a href="https://www.remotecrew.io/" target="_blank" class="text-green-400">Remote Crew</a> to help developers from Europe and South America find well-paid remote jobs.</p>
+                  <p class="text-lg font-medium pb-4">I have some professional experience as a software engineer working with <a href="https://www.python.org/" target="_blank" class="text-green-400">Python</a> and <a href="https://vuejs.org/" target="_blank" class="text-green-400">Vue.js</a>. I also have a postgraduate degree in Data Science and Analytics and enjoy working on machine learning models.</p>
+                  <div class="my-4 text-sm border border-green-400 inline-block px-3 py-2 rounded-md hover:bg-gray-800">
+                    <span>
+                      <i class="fab fa-python fa-lg"></i>
+                    </span>
+                    Python
+                  </div>
+                  <div class="my-4 text-sm border border-green-400 inline-block px-3 py-2 rounded-md hover:bg-gray-800">
+                    <span>
+                      <i class="fab fa-vuejs fa-lg"></i>
+                    </span>
+                    Vue.js
+                  </div>
+                </div>
+                <div class="col-span-1 px-0 md:px-8">
+                  <img class="profile-img shadow-xl" src="profile.png" alt="Miguel Marques">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mx-auto md:max-w-5xl w-4/5 md:w-3/5 lg:py-10 lg:text-left">
+        <div id="experience" class="px-4 sm:px-8 xl:pr-16">
+          <h2 class="heading text-xl color-secondary">
+            <span class="text-green-400">02.</span>
+            What I've Done
+          </h2>
+          <div class="max-w-7xl">
+            <div class="relative pt-8 sm:pt-12">
+              <h3 class="text-lg text-semibold">
+                Founder
+                <a href="https://www.remotecrew.io/" target="_blank" class="text-green-400">@ Remote Crew</a>
+              </h3>
+              <p class="text-base color-secondary">Nov 2018 - Present</p>
+              <ul class="experience-list mt-4 color-secondary text-sm md:text-base">
+                <li class="pl-4 mt-2">Developed talent management platform for matching companies with software developers.</li>
+                <li class="pl-4 mt-2">Conducted user interviews, designed wireframes and implemented frontend and backend of web app.</li>
+                <li class="pl-4 mt-2">Stack: Python, Django, Vue.js, JavaScript.</li>
+              </ul>
+            </div>
+            <div class="relative pt-8 sm:pt-12">
+              <h3 class="text-lg text-semibold">
+                Backend Developer
+                <a href="https://www.enlightenment.ai/" target="_blank" class="text-green-400">@ Enlightenment.ai</a>
+                <span class="text-green-400"></span> 
+              </h3>
+              <p class="text-base color-secondary">Apr 2018 - Nov 2018</p>
+              <ul class="experience-list mt-4 color-secondary text-sm md:text-base">
+                <li class="pl-4 mt-2">Developed web services with Flask that processed stock market data and predicted stock price.</li>
+                <li class="pl-4 mt-2">Contributed to the development of Machine Learning models.</li>
+                <li class="pl-4 mt-2">Stack: Python, Flask, Scikit-Learn, Keras.</li>
+              </ul>
+            </div>
+            <div class="relative pt-8 sm:pt-12">
+              <h3 class="text-lg text-semibold">
+                Trainee Leadership Programme
+                <a href="https://www.tui.com/" target="_blank" class="text-green-400">@ TUI</a> 
+              </h3>
+              <p class="text-base color-secondary">Sep 2016 - Mar 2018</p>
+              <ul class="experience-list mt-4 color-secondary text-sm md:text-base">
+                <li class="pl-4 mt-2">Worked across the business in 5 different roles part of a leadership development training (Marketing Manager, Financial Analyst, Ground Operations, Team Leader and Data Analyst). </li>
+                <li class="pl-4 mt-2">Developed interactive BI dashboards and built predictive models for delayed flights.</li>
+                <li class="pl-4 mt-2">Stack: Python, R.</li>
+              </ul>
+            </div>
+            <h2 class="text-xl font-semibold pt-16">🎓 Education</h2>
+            <div class="relative pt-4 sm:pt-6">
+              <h3 class="text-lg text-semibold">
+                Enterprise Data Science and Analytics
+                <a href="https://www.novaims.unl.pt/" target="_blank" class="text-green-400">@ Nova Information Management School</a> 
+              </h3>
+              <p class="text-base color-secondary">Post Graduation</p>
+            </div>
+            <div class="relative pt-4 sm:pt-6">
+              <h3 class="text-lg text-semibold">
+                Strategic Management
+                <a href="https://www.eur.nl/" target="_blank" class="text-green-400">@ Erasmus University Rotterdam</a> 
+              </h3>
+              <p class="text-base color-secondary">Master's Degree</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mx-auto max-w-7xl w-4/5 py-12 lg:py-18 lg:text-left">
+        <div id="work" class="px-4 sm:px-8 xl:pr-16">
+          <h2 class="heading text-xl color-secondary">
+            <span class="text-green-400">03.</span>
+            Some Noteworthy Projects
+          </h2>
+          <div class="relative max-w-7xl mx-auto">
+            <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+              <div class="flex flex-col rounded-lg shadow-lg overflow-hidden transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:-translate-y-2">
+                <div class="flex-1 bg-light-navy p-6 flex flex-col justify-between">
+                  <div class="flex justify-between">
+                    <span class="pr-4 text-green-400">
+                      <i class="fas fa-folder fa-lg"></i>
+                    </span>
+                    <a target="_blank" href="https://pypi.org/project/python-snovio/" class="pr-4 text-gray-400 hover:text-white">
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="flex-1 mt-4">
+                    <a target="_blank" href="https://pypi.org/project/python-snovio/" class="block mt-2">
+                      <p class="text-xl font-semibold text-secondary">
+                        Python-snovio Library
+                      </p>
+                      <p class="mt-3 text-base text-gray-400">
+                        Open-source library for interacting with the snov.io API easily.
+                      </p>
+                    </a>
+                  </div>
+                  <div class="mt-6 flex items-center text-sm text-gray-400">
+                    <div class="flex-shrink-0">
+                      <p>
+                        <span class="pr-1">
+                          <i class="far fa-star"></i>
+                          5
+                        </span>
+                        <span class="pr-1">
+                          <i class="fas fa-code-branch"></i>
+                          3
+                        </span>
+                        <span>|</span>
+                        <em>Python</em>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex flex-col rounded-lg shadow-lg overflow-hidden transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:-translate-y-2">
+                <div class="flex-1 bg-light-navy p-6 flex flex-col justify-between">
+                  <div class="flex justify-between">
+                    <span class="pr-4 text-green-400">
+                      <i class="fas fa-folder fa-lg"></i>
+                    </span>
+                    <a target="_blank" href="https://hr-attrition-dashboard.herokuapp.com/" class="pr-4 text-gray-400 hover:text-white">
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="flex-1 mt-4">
+                    <a target="_blank" href="https://hr-attrition-dashboard.herokuapp.com/" class="block mt-2">
+                      <p class="text-xl font-semibold text-secondary">
+                        Employee Attrition Dashboard
+                      </p>
+                      <p class="mt-3 text-base text-gray-400">
+                        Machine Learning model predicting the likelihood of an employee leaving the company based on a set of inputs.
+                      </p>
+                    </a>
+                  </div>
+                  <div class="mt-6 flex items-center text-sm text-gray-400">
+                    <div class="flex-shrink-0">
+                      <p>
+                        <em>Python</em>
+                        <em>Flask</em>
+                        <em>Vue.js</em>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex flex-col rounded-lg shadow-lg overflow-hidden transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:-translate-y-2">
+                <div class="flex-1 bg-light-navy p-6 flex flex-col justify-between">
+                  <div class="flex justify-between">
+                    <span class="pr-4 text-green-400">
+                      <i class="fas fa-folder fa-lg"></i>
+                    </span>
+                    <a target="_blank" href="https://dl-image-classification-db.herokuapp.com/" class="pr-4 text-gray-400 hover:text-white">
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="flex-1 mt-4">
+                    <a target="_blank" href="https://dl-image-classification-db.herokuapp.com/" class="block mt-2">
+                      <p class="text-xl font-semibold text-secondary">
+                        Fruit Classifier
+                      </p>
+                      <p class="mt-3 text-base text-gray-400">
+                        Deep Learning model predicting fruits from images (mobile-friendly).
+                      </p>
+                    </a>
+                  </div>
+                  <div class="mt-6 flex items-center text-sm text-gray-400">
+                    <div class="flex-shrink-0">
+                      <p>
+                        <em>Python</em>
+                        <em>Flask</em>
+                        <em>Vue.js</em>
+                        <em>Keras</em>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container mx-auto max-w-7xl w-4/5 py-12 lg:py-18 lg:text-left">
+        <div id="contact" class="px-4 sm:px-8 xl:pr-16">
+          <div class="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+            <h2 class="text-xl color-secondary py-8">
+              <span class="text-green-400">04.</span>
+              Contact Me
+            </h2>
+            <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+              <span class="block">Get in touch.</span>
+            </h2>
+            <p class="mt-4 text-lg leading-6 text-indigo-200">
+              I'm always open to hear about new projects and opportunities. Whether you're a company looking to hire me, or you're just looking to chat, I'd love to hear from you.
+            </p>
+            <a href="#" class="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-green-400 text-green-400 text-base font-medium rounded-md text-white bg-transparent hover:bg-gray-800 sm:w-auto">
+              Contact Me
+            </a>
+          </div>
+        </div>
+      </section>
+      
+
+    </main>
+    
+    <footer class="py-8">
+      <div class="text-center text-xs text-gray-400">
+        Design inspired by <a href="https://github.com/bchiang7/v4" target="_blank">brittanychiang.com</a>.
+      </div>
+    </footer>
+
+  </body>
+</html>
