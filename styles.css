@@ -1,24 +1,16 @@
 :root {
-  --blue: #1e90ff;
-  --white: #ffffff;
   --navy: #0a192f;
   --light-navy: #112240;
   --lightest-navy: #233554;
-  --slate: #8892b0;
-  --light-slate: #a8b2d1;
-  --lightest-slate: #ccd6f6;
+  --slate: #ccd6f6;
   --white:#e6f1ff;
-  --green	#64ffda;
+  --green: #34d399;
 }
 
 body {
   background-color: var(--navy);
   color: var(--white);
   font-family: "Lato", sans-serif;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .heading::after {
@@ -36,7 +28,7 @@ a:hover {
   border-radius: 1rem;
   filter: grayscale(100%) sepia(100%) hue-rotate(90deg);
   max-height: 200px;
-  border: 2px solid rgba(52,211,153);
+  border: 2px solid var(--green);
 }
 
 .profile-img:hover {
@@ -54,7 +46,7 @@ a:hover {
   content: "▹";
   position: absolute;
   left: 0px;
-  color: rgba(52,211,153);
+  color: var(--green);
 }
 
 /* UTILITIES */
@@ -63,7 +55,7 @@ a:hover {
 }
 
 .color-secondary {
-  color: var(--lightest-slate);
+  color: var(--slate);
 }
 
 .bg-light-navy {
